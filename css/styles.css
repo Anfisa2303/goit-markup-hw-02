@@ -15,6 +15,12 @@
 .logo-accent{
     color: #424246;
 }
+.logo-blue{
+    color: #4D5AE5;
+}
+.logo-black{
+    color: #2E2F42;
+}
 .nav-link{
     font-weight: 500;
     font-size: 16px;
@@ -147,9 +153,13 @@
     text-decoration: none;
 }
 .footer-text{
-    color: #f4f4fd;
-    
-    
+    color: #f4f4fd; 
+}
+.logo-blue{
+    color: #4D5AE5;
+}
+.logo-white{
+    color: #FFFFFF;
 }
 body{
     font-family: 'Roboto';
