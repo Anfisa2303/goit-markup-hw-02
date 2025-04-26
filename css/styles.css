@@ -160,6 +160,9 @@
 .logo-white{
     color: #FFFFFF;
 }
+ul,ol{
+    list-style: none;
+}
 body{
     font-family: 'Roboto';
     color: #434455;
