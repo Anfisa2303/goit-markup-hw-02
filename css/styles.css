@@ -128,11 +128,7 @@
     padding: 120px 0;
 }
 .portfolo-list{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    
+    list-style: none; 
 }
 .portfolio-item{
     width: 360px;
