@@ -1,10 +1,10 @@
 .logo{
     color: #2E2F42;
-    font-family: 'Raleway';
-    line-height: 1.17;
+     font-family: 'Raleway',sans-serif;
+     line-height: 1.02;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
@@ -22,9 +22,9 @@
     color: #2E2F42;
 }
 .nav-link{
-    font-weight: 500;
-    font-size: 16px;
+     font-weight: 500;
     line-height: 1.5;
+     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
@@ -36,39 +36,42 @@
     font-style: normal;
 }
 .contact-link{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
+     line-height: 1.5;
+     font-size: 16px;
+     letter-spacing: 0.02em;
+     color: #434455;
+     text-decoration: none;
 }
+.contact-link:hover,
 .contact-link:focus{
     color: #404bbf;
 }
 .first-child{
     background-color: #2E2F42;
-    color: white;
+    color: #FFFFFF;
 }
     main section{
         background-color: #F4F4FD;
         color: black;     
  }
   h1{
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 56px;
+    color: #2e2f42;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
     letter-spacing: 0.02em;
     text-align: center;
-
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
   }
 .order-service-btn {
         font-family: 'Roboto',sans-serif;
         font-weight: 500;
         font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        background-color:#4D5AE5;
-        border: none;
+         background-color:#4D5AE5;
          cursor: pointer;
         }
  .order-service-btn:hover,
@@ -80,32 +83,54 @@
 }
 .section-title{
     color:#2E2F42 ;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
 }
 .team-member-card{
     background-color: #FFFFFF;
 }
+.feature-title{
+    font-family:'Roboto',sans-serif ;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 0.02;
+    color: #2E2F42;
+}
+.feature-text{
+    font-family:"Roboto",sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.03;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .card-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto'sans-serif,;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
 }
 .card-text{
-    color: #434455;
-    font-size: 16px;
+    color:#434455;
+    font-size: 16px; 
     line-height: 1.5;
-    
+    letter-spacing: 0.02em; 
+}
+.team-position{
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .section-title{
     font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
+     text-align: center;
     letter-spacing:0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -114,7 +139,7 @@
 .card-title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -125,24 +150,25 @@
      color: #434455;
 }
 .portfolio-section{
-    padding: 120px 0;
+    list-style: none;
  }
-.portfolio-item{
-    width: 360px;
+ .portfolio-item{
     background-color: #FFFFFF;
-}
+ }
 .footer-section{
     background-color: #2e2f42;
-    padding: 100px 0;
-}
+ }
 
 .footer-logo{
     font-family: 'Raleway',sans-serif;
-    font-size: 18px;
-    letter-spacing: 0.03em;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    font-weight: 700;
+    line-height: 1.3;
 }
 .footer-text{
     color: #f4f4fd; 
@@ -151,13 +177,13 @@
     color: #4D5AE5;
 }
 .logo-white{
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 ul,ol{
     list-style: none;
 }
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
