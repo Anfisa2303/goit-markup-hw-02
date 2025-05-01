@@ -9,6 +9,6 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Projects\\goit-markup-hw-02\\index.html"
+            "file": "c:\\123\\goit-markup-hw-02\\index.html"
         }
     ]
